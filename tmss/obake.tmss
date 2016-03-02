@@ -1,0 +1,30 @@
+{
+  "frame": {
+    "width": 32,
+    "height": 32,
+    "rows": 4,
+    "cols": 3
+  },
+  "animations": {
+    "front": {
+      "frames": [0, 1, 2],
+      "next": "front",
+      "frequency": 4
+    },
+    "left": {
+      "frames": [3, 4, 5],
+      "next": "left",
+      "frequency": 4
+    },
+    "right": {
+      "frames": [6, 7, 8],
+      "next": "right",
+      "frequency": 4
+    },
+    "back": {
+      "frames": [9, 10, 11],
+      "next": "back",
+      "frequency": 4
+    }
+  }
+}
